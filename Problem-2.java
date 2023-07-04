@@ -27,6 +27,10 @@ public class Main {
         }
     }
 }
+
+Time complexity = O(a) //a is nothing but input element it will iterate upto a =O(N)
+Space complexity= O(1)
+            
 TEST CASE I:
 Input :2
 Output:1,3
