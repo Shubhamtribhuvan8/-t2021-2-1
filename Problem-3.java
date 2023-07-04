@@ -10,7 +10,7 @@
         .
         7) input a = x, then output : 1, 3, 5, 7, .......
 # Solution:Approch 1=>
-
+//I TRIED THIS APPROCH BUT FAILING SOME TEST CASES!!!
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
