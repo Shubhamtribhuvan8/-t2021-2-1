@@ -4,14 +4,15 @@
     Output:{1: 11, 2: 8, 3: 4, 4: 4, 5: 3, 6: 2, 7: 0, 8: 1, 9: 1
 Solution: 
 1)Approch 1:By using HashMap /TreeMap
+    
 import java.util.Scanner;
 import java.util.TreeMap;
 import java.util.Map;
 class Main {
 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
+        int n = sc.nextInt();//taking input for series
+        int[] arr = new int[n];//taking whole array
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
@@ -29,3 +30,6 @@ public static void main(String[] args) {
     }
 }
 
+Time Complexity: O(n * log(n))
+Space Complexity: O(n)
+    
